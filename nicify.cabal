@@ -1,5 +1,5 @@
 Name:           nicify
-Version:        1.2
+Version:        1.2.1
 Synopsis:       Pretty print the standard output of default `Show` instances.
 Description:    Pretty print the standard output of `show` for algebraic datatypes
                 
@@ -18,7 +18,7 @@ Source-Repository head
 
 Executable nicify
     Build-Depends:      base ==4.*
-                        , nicify-lib
+                        , nicify-lib >=1.0.1
 
     Main-Is:            nicify.hs
     Default-Language:   Haskell2010    

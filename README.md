@@ -28,6 +28,8 @@ you would typically get:
 
 not so with nicify:
 
+
+
 ```
     >>> runhaskell main.hs | nicify
     A [
@@ -40,4 +42,7 @@ not so with nicify:
         ]
     ]
 ```
+
+Looking for `nicify` as a library function for your haskell programs?
+Check out [`github.com/scravy/nicify-lib`](https://github.com/scravy/nicify-lib)!
 
